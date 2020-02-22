@@ -2,7 +2,9 @@ html {
     box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
 
@@ -11,3 +13,107 @@ body {
     padding: 0;
     margin: 0;
 }
+
+
+/*---------------Style for section OUR SERVICES---------------*/
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F7F7F7;
+    width: 100vw;
+}
+
+section.our-services-section {
+    background: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.texts-content-our-services {
+    box-sizing: unset;
+    width: 70%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+div.texts-content-our-services h2 {
+    font-weight: 530;
+    color: #084480;
+}
+
+div.texts-content-our-services p {
+    color: #b8babf;
+}
+
+section article.card-our-services {
+    background: white;
+    border-radius: 2px;
+    padding: 40px 30px;
+    width: 75%;
+    height: auto;
+    box-shadow: 5px 5px 25px gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 25px;
+}
+
+figure.circle {
+    background: #ffecec;
+    width: 80px;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin: 0px;
+}
+
+article figure .img-card-icons {
+    max-width: 90%;
+    height: auto;
+}
+
+article h3.title-card-our-services {
+    color: #215487;
+}
+
+article p.paragraph-card-our-services {
+    color: #b8babf;
+}
+
+div.all-services-content-our-services {
+    text-align: center;
+    margin: 30px auto;
+}
+
+div.all-services-content-our-services a,
+div.all-services-content-our-services a:visited {
+    color: #215487;
+    cursor: pointer;
+    text-align: center;
+}
+
+@media only screen and (min-width:520px) {
+    section.our-services-section {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    section article.card-our-services {
+        width: 25%;
+        height: auto;
+        justify-content: center;
+        margin-left: 25px;
+        box-shadow: 2px 2px 20px gainsboro;
+    }
+}
+
+
+/*---------------Style for section OUR SERVICES---------------*/
