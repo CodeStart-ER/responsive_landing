@@ -23,7 +23,6 @@ body {
     justify-content: center;
     align-items: center;
     background: #F7F7F7;
-    width: 100vw;
 }
 
 section.our-services-section {
@@ -118,6 +117,7 @@ div.all-services-content-our-services a:visited {
 
 /*---------------Style for section OUR SERVICES---------------*/
 
+
 /* ----footer styles----- */
 
 footer {
@@ -144,13 +144,12 @@ footer nav ul {
     padding: 0;
 }
 
-footer nav ul *{
+footer nav ul * {
     text-decoration: none;
 }
 
 footer nav ul li.first-nevel {
     padding: 50px 0 30px 0;
-    
 }
 
 footer nav ul li.first-nevel a::after {
@@ -177,9 +176,11 @@ footer nav ul ul li {
 footer nav ul ul li {
     margin: 17px 0 0 0;
 }
+
 footer nav ul ul li a {
     cursor: pointer;
 }
+
 footer nav ul ul li a:hover {
     color: #fff;
 }
@@ -194,19 +195,17 @@ footer nav ul ul li i {
         display: flex;
         justify-content: space-around;
     }
-
     footer div.flex-wrapper div.flex-wrapper-paragraph {
         display: flex;
         flex-direction: column;
         margin-left: 50px;
     }
-
     nav {
         display: flex;
         justify-content: space-around;
         flex: 0 0 calc(60% - 10px);
     }
-
 }
+
 
 /*------*/
